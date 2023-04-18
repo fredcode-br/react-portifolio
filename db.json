@@ -1,0 +1,91 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "CarShop - Django + PostgreSQL",
+            "tags": [
+                "html",
+                "css",
+                "js",
+                "py",
+                "dj"
+            ],
+            "imageName": "carshop.png",
+            "projectUrl": "https://carshopdjango.up.railway.app/",
+            "githubUrl": "https://github.com/frederico-rufino/django-carshop-postgreSQL",
+            "description": "It is a system for a vehicle dealership where it is possible to register new vehicles and display them in a stock list."
+        }
+    ],
+    "skills": [
+        {
+            "tag": "html",
+            "name": "HTML",
+            "percentage": 70,
+            "color": "#FF6A00",
+            "icon": "html.svg"
+        },
+        {
+            "tag": "css",
+            "name": "CSS",
+            "percentage": 70,
+            "color": "#3C52FF",
+            "icon": "css.svg"
+        },
+        {
+            "tag": "js",
+            "name": "JavaScript",
+            "percentage": 60,
+            "color": "#FFFF00",
+            "icon": "js.svg"
+        },
+        {
+            "tag": "py",
+            "name": "Python",
+            "percentage": 50,
+            "color": "#3C52AA",
+            "icon": "python.svg"
+        },
+        {
+            "tag": "java",
+            "name": "Java",
+            "percentage": 20,
+            "color": "#FFA500",
+            "icon": "java.svg"
+        },
+        {
+            "tag": "php",
+            "name": "PHP",
+            "percentage": 40,
+            "color": "#724ED4",
+            "icon": "php.svg"
+        },
+        {
+            "tag": "dj",
+            "name": "Django",
+            "percentage": 40,
+            "color": "#206329",
+            "icon": "django.svg"
+        },
+        {
+            "tag": "rct",
+            "name": "React",
+            "percentage": 35,
+            "color": "#007BFF",
+            "icon": "react.svg"
+        },
+        {
+            "tag": "wp",
+            "name": "Wordpress",
+            "percentage": 30,
+            "color": "#0B3E75",
+            "icon": "wordpress.svg"
+        },
+        {
+            "tag": "fgm",
+            "name": "Figma",
+            "percentage": 70,
+            "color": "#1EF013",
+            "icon": "figma.svg"
+        }
+    ]
+}

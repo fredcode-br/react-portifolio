@@ -1,0 +1,12 @@
+.btn {
+    background: linear-gradient(270deg, #1DC6DD 0%, rgba(135, 87, 253, 0.907432) 46.87%, rgba(206, 12, 255, 0.854945) 100%);
+    border-radius: 100px;
+    font-family: Rog;
+    padding: 18px 25px;
+    cursor: pointer;
+    word-break: break-all;
+}
+
+.btn:hover {
+    opacity: .8;
+}

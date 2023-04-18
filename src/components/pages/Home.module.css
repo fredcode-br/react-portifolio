@@ -1,0 +1,170 @@
+.home_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.home_text {
+    width: 50%;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home_text h1 {
+    font-family: Rog;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 64px;
+    text-transform: uppercase;
+    animation: to-rigth .3s ease-in;
+}
+
+.home_text p {
+    font-family: Rog;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    animation: to-rigth .3s ease-in;
+}
+
+.link_buttons {
+    animation: to-rigth .3s ease-in;
+}
+
+.home_icons {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    animation: to-rigth .3s ease-in;
+}
+
+.home_icons svg {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.home_icons svg:hover {
+    color: rgba(135, 87, 253, 0.907432);
+}
+
+.home_image {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: to-left .3s ease-in;
+}
+
+.circle {
+    display: grid;
+    place-items: center;
+    height: 350px;
+    width: 350px;
+    background: rgba(217, 217, 217, 0.28);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.circle img {
+    height: 100%;
+    width: 100%;
+}
+
+.link_buttons {
+    padding: 30px 0;
+}
+
+.link_buttons>a{
+    margin-right: 10px;
+}
+
+
+@media (max-width: 768px)
+{
+    .home_text {
+        width: 50%;
+    }
+    
+    .home_text h1 {
+        font-size: 50px;
+        line-height: 44px;
+    }
+    
+    .home_text p {
+        font-size: 20px;
+    }
+    
+    .home_icons {
+        width: 90px;
+    }
+
+    .home_icons svg {
+        font-size: 25px;
+    }
+    
+    .home_image {
+        width: 50%;
+        height: auto;
+    }
+    
+    .circle {
+        height: 300px;
+        width: 300px;
+    }
+
+}
+
+
+@media (max-width: 576px)
+{
+    .home_container {
+        flex-direction: column-reverse;
+    }
+
+    .home_text {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .text_content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home_image {
+        width: 100%;
+        height: auto;
+    }
+    
+    .circle {
+        height: 250px;
+        width: 250px;
+    }
+
+}
+
+@keyframes to-rigth {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes to-left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
